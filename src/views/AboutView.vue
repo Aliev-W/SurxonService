@@ -1,6 +1,5 @@
 <template>
 <div class="about" id="about">
-         <img src="../assets/about.png" alt="">
          <div class="us">
             <h4>About us</h4>
             <h3>Food Stalls with Persons but  to  Product marketing plane

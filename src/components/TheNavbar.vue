@@ -30,7 +30,6 @@
         </ul>
         </transition>
         </nav>
-        <!-- <a href="#"><button class="btn">Booking Now</button></a> -->
     </header>
 </template>
 
@@ -89,23 +88,23 @@ header{
    background-color: #fff;
    z-index: 99;
    width: 100%;
-   position: fixed;
    transition: .5s ease all;
    color: #fff;
    display: flex;
+   justify-content: center;
+   text-align: center;
 
    nav{
    position: relative;
    display: flex;
-   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   flex-direction: center;
    padding-bottom: 0;
    transition: .5s ease all;
    width: 100%;
    height: 80px;
    background-color: #242754;
-   @media(min-width: 1140px){
-      max-width: 100%;
-   }
 
    ul,
    .link{
@@ -126,6 +125,7 @@ header{
    }
    .branding{
       display: flex;
+      justify-content: center;
       align-items: center;
       margin-left: 150px;
 
@@ -138,13 +138,9 @@ header{
       display: flex;
       align-items: center;
       flex: 1;
-      justify-content: flex-start;
+      justify-content: center;
      
 
-      @media(max-width: 2000px){
-      text-align: center;
-      justify-content: center;
-   }
    }
 
    .icon{
